@@ -3,7 +3,7 @@
 window.onload = (() => {
 
 console.log('onload fn is working')
-let getMDN = createDocumentFragment() ;
+getMDN = createDocumentFragment() ;
 let MDNDocURL = 'https://developer.mozilla.org/en-US/docs/Web/API' ;
 
 let headers = new Headers() ;
