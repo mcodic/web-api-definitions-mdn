@@ -1,6 +1,6 @@
 
 
-window.addEventListener('load', () => {
+window.onload = (() => {
 
 let getMDN = createDocumentFragment() ;
 let MDNDocURL = 'https://developer.mozilla.org/en-US/docs/Web/API' ;
@@ -20,4 +20,5 @@ console.log(getMDN)
 
 
 
-}, false)
+}
+                 )()
